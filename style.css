@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: rgb(254, 254, 255);
+}
+.skewbox{
+    background: skyblue;
+    transform: skew(0deg,-10deg)translatey(-120px);
+    padding: 170px 0;
+}
+.part_1{
+    transform: skew(0deg,10deg);
+    padding-left: 120px;
+    padding-top: 60px;
+}
+.part_1 h1{
+    color: lightcoral;
+    font-family: sans-serif;
+    font-size: 30px;
+}
+.part_1 p{
+    color: maroon;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+/*  */
+.part_2{
+    padding-left: 120px;
+    padding-top: 60px;
+    padding-bottom: 140px;
+}
+.part_2 h1{
+    color: royalblue;
+    font-family: sans-serif;
+    font-size: 30px;
+}
+.part_2 p{
+    font-size: 20px;
+    font-family: sans-serif;
+    color: seagreen;
+}
